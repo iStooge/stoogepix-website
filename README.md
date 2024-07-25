@@ -1,8 +1,8 @@
-# [Creator's Blog: Hugo Theme](https://github.com/HugoBlox/theme-blog)
+# [Sponsors: Hugo Blog Pro Theme](https://hugoblox.com/templates/details/blog-pro/)
 
-[![Screenshot](./.github/preview.png)](https://hugoblox.com/templates/)
+[![Screenshot](./.github/preview.webp)](https://hugoblox.com/templates/)
 
-The **Creator's Blog** Hugo Theme empowers you to easily create your own _personal blog_ or _build a business around your content_.
+The **Blog Pro** Hugo Theme empowers you to easily create your own _personal blog_ or _build a business around your content_.
 
 ️**Trusted by 250,000+ researchers, educators, and students.** Highly customizable via the integrated **no-code, block-based website builder**, making every site truly personalized ⭐⭐⭐⭐⭐
 
@@ -12,7 +12,7 @@ The **Creator's Blog** Hugo Theme empowers you to easily create your own _person
 
 Easily write technical content with plain text Markdown, LaTeX math, diagrams, RMarkdown, or Jupyter, and import publications from BibTeX.
 
-[Check out the latest demo](https://hugo-blog-theme.netlify.app/) of what you'll get in less than 10 minutes, or [view the showcase](https://hugoblox.com/creators/).
+[Check out the latest demo](https://blog-pro-theme.netlify.app) of what you'll get in less than 10 minutes, or [view the showcase](https://hugoblox.com/creators/).
 
 The integrated [**Hugo Blox**](https://hugoblox.com) website builder and CMS makes it easy to create a beautiful website for free. Edit your site in the CMS (or your favorite editor), generate it with [Hugo](https://github.com/gohugoio/hugo), and deploy with GitHub or Netlify. Customize anything on your site with widgets, light/dark themes, and language packs.
 

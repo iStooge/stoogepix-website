@@ -6,7 +6,7 @@
 # Appearance
 appearance:
   mode: system
-  color: blue
+  color: green
 
 # SEO
 marketing:
@@ -50,11 +50,14 @@ locale:
 
 # Site features
 features:
+  syntax_highlighter:
+    theme_light: github-light
+    theme_dark: github-dark
   math:
     enable: false
   privacy_pack:
     enable: false
   repository:
-    url: 'https://github.com/HugoBlox/hugo-blox-builder/'
-    content_dir: starters/blog/content
+    url: 'https://github.com/<username>/<repository>'
+    content_dir: content
     branch: main

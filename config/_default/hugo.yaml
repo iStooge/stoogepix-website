@@ -3,7 +3,7 @@
 # Hugo Documentation: https://gohugo.io/getting-started/configuration/#all-configuration-settings
 # This file is formatted using YAML syntax - learn more at https://learnxinyminutes.com/docs/yaml/
 
-title: "Creator's Blog (Hugo Theme)" # Website name
+title: Blog Pro (Hugo Theme) # Website name
 baseURL: 'https://example.com/' # Website URL
 
 ############################
@@ -13,21 +13,22 @@ baseURL: 'https://example.com/' # Website URL
 cascade:
   # Blog post options
   - _target:
-      path: /blog/**
+      path: /post/**
       kind: page
     pager: true
-    editable: true
-    hide_date: false
-    show_date_updated: true
+    editable: false
     reading_time: true
     commentable: true
     show_related: true
     share: true
-    # Just use Breadcrumb for navigation on blog post pages?
-    show_breadcrumb: false
-    header:
-      navbar:
-        enable: true
+    # Default author
+    authors:
+      - admin
+  # Tag page options
+  - _target:
+      path: /tags/**
+      kind: term
+    view: article-grid
 
 ############################
 ## LANGUAGE
@@ -57,11 +58,11 @@ permalinks:
   categories: '/category/:slug/'
 disableAliases: true
 outputs:
-  home: [HTML, RSS, headers, redirects, backlinks]
+  home: [HTML, RSS, headers, redirects]
   section: [HTML, RSS]
 imaging:
   resampleFilter: lanczos
-  quality: 95
+  quality: 85
   anchor: smart
 timeout: 600000
 taxonomies:
@@ -70,6 +71,8 @@ taxonomies:
   author: authors
 markup:
   _merge: deep
+  highlight:
+    lineNos: false
 related:
   threshold: 80
   includeNewer: true
@@ -82,6 +85,4 @@ related:
 security:
   _merge: deep
 sitemap:
-  _merge: deep
-minify:
   _merge: deep
